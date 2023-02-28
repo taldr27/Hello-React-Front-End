@@ -58,8 +58,8 @@ In order to run this project you need:
 ### Setup
 Clone this repository to your desired folder:
 ```
-- To clone the repository run this command - "git@github.com:taldr27/Hello-World-Webpack.git" OR "https://github.com/taldr27/Hello-World-Webpack.git"
-- cd my-hello-world-webpack
+- To clone the repository run this command - "git@github.com:taldr27/Hello-React-Front-End.git" OR "https://github.com/taldr27/Hello-React-Front-End.git"
+- cd hello-react-front-end
 ```
 ### Installation
 Install this project with:
