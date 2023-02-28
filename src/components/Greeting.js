@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import { useSelector, useDispatch  } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { fetchGreetings } from '../redux/greetings/Greetings';
+
 const Greeting = () => {
   const greeting = useSelector((state) => state.greetings);
   const dispatch = useDispatch();
@@ -11,11 +12,11 @@ const Greeting = () => {
 
   return (
     <div>
-      <hr/>
+      <hr />
       <h2>{greeting}</h2>
-      <hr/>
+      <hr />
     </div>
-  )
+  );
 };
 
 export default Greeting;
